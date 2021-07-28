@@ -64,7 +64,7 @@ shp_GEE = ee.FeatureCollection("users/rc474048903/qishan2021_wheat_rust/qishan20
 raster_GEE = ee.Image("users/rc474048903/qishan2021_wheat_rust/qishan_wheatarea_decisiontree")
 ```
 
-## 1.3 从GEE_Python导出矢量和栅格到GEE DRIVE
+## 1.3 从GEE_Python导出矢量和栅格到Google Drive
 
 ### 1.3.1 利用ee库函数导出矢量
 
