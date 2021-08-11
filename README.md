@@ -1,7 +1,7 @@
 # GEE_Python
 Google Earth Engine(GEE) for Python
 # 1.Module
-建立library函数库,直接调用函数批量进行GEE数据处理
+建立自己的library函数库,直接调用函数批量进行GEE数据处理
 
 method：
 导入Module
@@ -33,3 +33,5 @@ S2Vis(img)#计算指数并且添加为对应波段
 # 2.Upload and download
 矢量和栅格数据的上传（本地上传到Python中进行数据处理）和下载（下载到本地和Google Drive）
 
+# 3.Batch_Vis_loadimg
+批量计算本地栅格数据的植被指数
