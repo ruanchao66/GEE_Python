@@ -24,9 +24,6 @@ Map
 ```
 
 
-    Map(center=[40, -100], controls=(WidgetControl(options=['position', 'transparent_bg'], widget=HBox(children=(T…
-
-
 ### 1.1.1 本地导入栅格(windows暂不支持导入raster)
 
 ### 1.1.2 本地导入矢量(windows暂不支持导入raster)
@@ -44,8 +41,6 @@ Map.addLayer(shp_local)
 Map
 ```
 
-
-    Map(bottom=1115.0, center=[34.410016340000055, 107.68044322500006], controls=(WidgetControl(options=['position…
 
 
 ## 1.2 从GEE导入栅格和矢量
