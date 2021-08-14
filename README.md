@@ -35,3 +35,6 @@ S2Vis(img)#计算指数并且添加为对应波段
 
 # 3.Batch_Vis_loadimg
 批量计算本地栅格数据的植被指数
+
+# 4.Cropstation_tocsv_toshp
+农气站点TXT文件批量转shp
