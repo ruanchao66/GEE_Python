@@ -443,11 +443,3 @@ if __name__ == '__main__':
     out_path = r'K:\编程学习视频\GEE培训\GEE_python_RC\3.Batch_Vis_loadimg'
     BatchVis(in_path,out_path)
 ```
-
-    ['K:\\编程学习视频\\GEE培训\\GEE_python_RC\\3.Batch_Vis_loadimg\\data\\SXNQS20180303.tif', 'K:\\编程学习视频\\GEE培训\\GEE_python_RC\\3.Batch_Vis_loadimg\\data\\SXNQS220171203.tif']
-    
-
-
-```python
-
-```
