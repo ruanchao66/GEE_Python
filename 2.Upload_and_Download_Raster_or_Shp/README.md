@@ -119,7 +119,7 @@ task_raster.status()
 geemap.ee_export_vector_to_drive(ee_object =shp_GEE, description= "shp_GEE", folder="GEE_python", file_format='shp')
 ```
 
-### 1.3.4 利用geemap函数导出矢量
+### 1.3.4 利用geemap函数导出栅格
 
 
 ```python
