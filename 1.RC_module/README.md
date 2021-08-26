@@ -1,3 +1,14 @@
+使用方法：
+1.将1.RC_module文件夹改为RC_module(不能加数字)放在代码同级目录下；
+2.导入模块：
+```python
+from RC_module import general
+```
+3.使用模块下的函数：
+```python
+general.函数名
+general.funoutline(roi)
+```
 # 1.常规算法
 
 ## 1.1 显示矢量边界
