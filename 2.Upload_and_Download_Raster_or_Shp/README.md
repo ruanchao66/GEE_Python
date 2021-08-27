@@ -14,6 +14,8 @@ import os
 ```python
 #设置端口，7890为电脑端口
 geemap.set_proxy(port=7890)
+#初始化
+ee.Initialize()
 ```
 
 
@@ -23,13 +25,13 @@ Map = geemap.Map()
 Map
 ```
 
-
 ### 1.1.1 本地导入栅格(windows暂不支持导入raster)
 
 ### 1.1.2 本地导入矢量(windows暂不支持导入raster)
 
 
 ```python
+#设置本地矢量路径
 shp_path=('K:/编程学习视频/GEE培训/GEE_python_RC/data/20210416.shp')
 shp_local = geemap.shp_to_ee(shp_path)
 ```
@@ -41,18 +43,16 @@ Map.addLayer(shp_local)
 Map
 ```
 
-
-
 ## 1.2 从GEE导入栅格和矢量
 
-### 1.2.1 导入栅格
+### 1.2.1 导入矢量
 
 
 ```python
 shp_GEE = ee.FeatureCollection("users/rc474048903/qishan2021_wheat_rust/qishan20210416_wheatrust_point")
 ```
 
-### 1.2.2 导入矢量
+### 1.2.2 导入栅格
 
 
 ```python
@@ -119,7 +119,7 @@ task_raster.status()
 geemap.ee_export_vector_to_drive(ee_object =shp_GEE, description= "shp_GEE", folder="GEE_python", file_format='shp')
 ```
 
-### 1.3.4 利用geemap函数导出栅格
+### 1.3.4 利用geemap函数导出矢量
 
 
 ```python
@@ -151,3 +151,4 @@ geemap.ee_export_vector(ee_object=shp_GEE, filename='K:/编程学习视频/GEE�
 #方法2
 geemap.ee_to_shp(ee_object=shp_GEE, filename='K:/编程学习视频/GEE培训/GEE_python_RC/shp_GEE.shp')
 ```
+
