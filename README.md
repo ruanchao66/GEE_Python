@@ -38,3 +38,6 @@ S2Vis(img)#计算指数并且添加为对应波段
 
 # 4.Cropstation_tocsv_toshp
 农气站点TXT文件批量转shp
+
+# 5.WeatherStation.txt_ToCsv_ToShp_ByDay
+中国地面气候资料日值数据集(V3.0).txt转成矢量数据.shp
