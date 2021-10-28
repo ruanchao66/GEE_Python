@@ -1,4 +1,4 @@
-# 中国地面气候资料日值数据集(V3.0).txt转成矢量数据.shp
+# 1. 中国地面气候资料日值数据集(V3.0).txt转成矢量数据.shp
 
 
 ```python
@@ -33,7 +33,7 @@ os.chdir(input_dir)
 os.getcwd()
 ```
 
-## 剔除txt中异常值
+## 1.1 剔除txt中异常值
 
 
 ```python
@@ -161,7 +161,7 @@ ReplaceErrorvalue(dataRHU)
 ReplaceErrorvalue(dataPRE)
 ```
 
-## 将txt格式转换成csv格式
+## 1.2 将txt格式转换成csv格式
 
 
 ```python
@@ -286,7 +286,7 @@ for i in track(range(len(dataSSD))):
 print('数据导出到excel已完成！')
 ```
 
-## 根据经纬度转换csv格式为shp格式
+## 1.3 根据经纬度转换csv格式为shp格式
 
 
 ```python
@@ -491,7 +491,7 @@ for i in track(range(len(files))):
 print('转矢量完成!')
 ```
 
-## 定义投影
+## 1.4 定义投影
 
 
 ```python
