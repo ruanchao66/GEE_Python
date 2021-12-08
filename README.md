@@ -41,3 +41,6 @@ S2Vis(img)#计算指数并且添加为对应波段
 
 # 5.WeatherStation.txt_ToCsv_ToShp_ByDay
 中国地面气候资料日值数据集(V3.0).txt转成矢量数据.shp
+
+# 6.VIs_mean&std_bar_err
+绘制不同类别植被指数均值标准差直方图
