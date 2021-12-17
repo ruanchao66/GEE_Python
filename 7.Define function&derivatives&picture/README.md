@@ -126,8 +126,8 @@ ax1.spines['left'].set_linewidth('1.5')#设置边框线宽为2.0
 #图例
 # ax1.legend(loc=4).get_frame().set_linewidth(0.0)
 # ax2.legend(loc=3).get_frame().set_linewidth(0.0)
-# lines = plot1+ plot2 + plot3
-# ax1.legend(lines, [l.get_label() for l in lines],loc=4).get_frame().set_linewidth(0.0)
+lines = plot1+ plot2 + plot3
+ax1.legend(lines, [l.get_label() for l in lines],loc=4).get_frame().set_linewidth(0.0)
 # #去除图片周围空白
 plt.subplots_adjust(top=0.998, bottom=0.1, right=0.998, left=0.11, hspace=0, wspace=0)
 
