@@ -44,3 +44,6 @@ S2Vis(img)#计算指数并且添加为对应波段
 
 # 6.VIs_mean&std_bar_err
 绘制不同类别植被指数均值标准差直方图
+
+# 7.Define function&derivatives&picture
+定义函数及其导数，绘制双Y轴曲线
