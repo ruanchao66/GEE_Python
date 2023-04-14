@@ -1,5 +1,14 @@
 # GEE_Python
 Google Earth Engine(GEE) for Python
+
+# 0.GEE.Environment
+
+在python中配置GEE
+
+方法1.安装官方库ee
+
+方法2.安装geemap（推荐）
+
 # 1.Module
 建立自己的library函数库,直接调用函数批量进行GEE数据处理
 
